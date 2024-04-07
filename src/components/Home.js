@@ -36,7 +36,7 @@ const Home = () => {                                //creating a Home component
                             {                                           /* using map funtion  */
                                 contacts.map((contact, id) => (
                                     <tr key={id}>
-                                        <td>{id + 1}</td>
+                                        <td>{id + 1}.</td>
                                         <td>{contact.name}</td>
                                         <td>{contact.email}</td>
                                         <td>{contact.number}</td>

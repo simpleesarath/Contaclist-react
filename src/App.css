@@ -1,8 +1,10 @@
-/* {
-    background-color: cadetblue;
-} */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
 body{
-    background-image:linear-gradient(45deg,yellow,green);
+    background-image:linear-gradient(45deg,yellow,green) !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
    
@@ -14,11 +16,12 @@ body{
 
 .nav-head{
     color:beige;
-    width: 100%;
+    width :100vw;
+    /* height: auto; */
     text-align: center;
-    padding: 0 2%;
+    padding:2px 0;
     text-decoration: none;
-    font-weight: 800;
+    font-size:x-large;
     
 }
 .nav-head img{
@@ -44,17 +47,22 @@ body{
     /* box-shadow: 2px 2px rgb(46, 32, 32); */
 }
 .table{
-    box-shadow:  2px 0px 2px 2px rgb(41, 40, 40);
+    border-radius:5px;
+    border:2px solid black !important;
+    box-shadow: 3px 3px ;
 }
-.table-container{
-    margin:2%;
-    border-radius: 5px;
-    background-color: ;
+tr{
+    text-align: center;
 }
 tr:hover{
     background-color: #885353;
-    color:white !important;
 }
+
+
+/* .table .table-transparent thead th {
+    background-color: transparent !important;
+} */
+
 
 .form-group{
     border: 2px solid #000;
@@ -63,5 +71,4 @@ tr:hover{
 .shadow{
     border:2px solid #000;
     border-radius:10px;
-   
 }
